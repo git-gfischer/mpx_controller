@@ -23,7 +23,7 @@ from framework.utils.ref_gen_wrapper import whole_body_reference_partial
 import mujoco
 from mujoco import mjx
 import framework.controllers.mpx.solver.optimizers as optimizers
-import framework.utils.math_utils.offiline_solver as offline_solver
+import framework.controllers.mpx.solver.offline as offline_solver
 from mujoco.mjx._src.dataclasses import PyTreeNode
 from timeit import default_timer as timer
 from framework.controllers.mpx.carry import mpx_data, MPCData
